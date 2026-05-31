@@ -8,7 +8,7 @@ refeicoes = st.number_input("Quantas refeições você faz por dia?", min_value=
 
 if st.button("Calcular"):
     proteina_total = peso * 2
-    carboidrato_total = peso * 3
+    carboidrato_total = peso * 2
     agua = peso * 33
 
     proteina_refeicao = proteina_total / refeicoes
