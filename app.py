@@ -7,7 +7,7 @@ peso = st.number_input("Digite seu peso (kg)", min_value=1.0)
 refeicoes = st.number_input("Quantas refeições você faz por dia?", min_value=1, step=1)
 
 if st.button("Calcular"):
-    proteina_total = peso * 2
+    proteina_total = peso * 2.3
     carboidrato_total = peso * 2
     agua = peso * 33
 
