@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🥩 Calculadora de Proteína, Carboidrato e Água. ")
+st.title(" 🥩 Calculadora . ")
 
 nome = st.text_input("Informe seu nome")
 peso = st.number_input("Digite seu peso (kg)", min_value=1.0)
