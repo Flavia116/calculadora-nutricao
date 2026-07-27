@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("🏋️ Calculadora de Necessidades Diárias")
 
-nome = st.text_input("Informe seu nome")
+nome = st.text_input("Informe seu nome").upper()
 peso = st.number_input("Peso (kg)", min_value=1.0)
 altura = st.number_input("Altura (m)", min_value=0.50, format="%.2f")
 refeicoes = st.number_input("Número de refeições", min_value=1, step=1)
