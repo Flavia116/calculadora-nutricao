@@ -9,7 +9,7 @@ refeicoes = st.number_input("Número de refeições", min_value=1, step=1)
 
 if st.button("Calcular"):
 
-    imc = peso / (altura ** 2)
+    imc = peso / (altura * altura)
 
     if imc < 18.5:
         classificacao = "Abaixo do peso"
